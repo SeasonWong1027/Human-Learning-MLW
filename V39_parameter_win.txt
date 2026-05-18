@@ -1,0 +1,157 @@
+=== V39 Multi-Rank Output Parameters ===
+
+Global Best CV: 0.81663
+
+--- Rank 1 ---
+CV Score: 0.81663
+Fusion Configuration: XGBoost Weight 0.2118 | CatBoost Weight 0.7882
+Decision Threshold: 0.5213
+XGBoost Parameters:
+{
+    "max_depth": 6,
+    "n_estimators": 1500,
+    "learning_rate": 0.09948882346115807,
+    "subsample": 0.9006595944861581,
+    "colsample_bytree": 0.9461506477972902,
+    "tree_method": "hist",
+    "device": "cuda",
+    "random_state": 42,
+    "verbosity": 0
+}
+
+--- Rank 2 ---
+CV Score: 0.81594
+Fusion Configuration: XGBoost Weight 0.2194 | CatBoost Weight 0.7806
+Decision Threshold: 0.5184
+XGBoost Parameters:
+{
+    "max_depth": 6,
+    "n_estimators": 1500,
+    "learning_rate": 0.09507136341937096,
+    "subsample": 0.8991855867130062,
+    "colsample_bytree": 0.9438034955575809,
+    "tree_method": "hist",
+    "device": "cuda",
+    "random_state": 42,
+    "verbosity": 0
+}
+
+--- Rank 3 ---
+CV Score: 0.81502
+Fusion Configuration: XGBoost Weight 0.0451 | CatBoost Weight 0.9549
+Decision Threshold: 0.5053
+XGBoost Parameters:
+{
+    "max_depth": 6,
+    "n_estimators": 1500,
+    "learning_rate": 0.048231021565447244,
+    "subsample": 0.8594701494535045,
+    "colsample_bytree": 0.9692710574997248,
+    "tree_method": "hist",
+    "device": "cuda",
+    "random_state": 42,
+    "verbosity": 0
+}
+
+--- Rank 4 ---
+CV Score: 0.81502
+Fusion Configuration: XGBoost Weight 0.2456 | CatBoost Weight 0.7544
+Decision Threshold: 0.5176
+XGBoost Parameters:
+{
+    "max_depth": 6,
+    "n_estimators": 1500,
+    "learning_rate": 0.0931404029603305,
+    "subsample": 0.8995074125141114,
+    "colsample_bytree": 0.9359325719313459,
+    "tree_method": "hist",
+    "device": "cuda",
+    "random_state": 42,
+    "verbosity": 0
+}
+
+--- Rank 5 ---
+CV Score: 0.81479
+Fusion Configuration: XGBoost Weight 0.0222 | CatBoost Weight 0.9778
+Decision Threshold: 0.5262
+XGBoost Parameters:
+{
+    "max_depth": 6,
+    "n_estimators": 1000,
+    "learning_rate": 0.07443688108314056,
+    "subsample": 0.8465647702696703,
+    "colsample_bytree": 0.9243595702628727,
+    "tree_method": "hist",
+    "device": "cuda",
+    "random_state": 42,
+    "verbosity": 0
+}
+
+--- Rank 8 ---
+CV Score: 0.81468
+Fusion Configuration: XGBoost Weight 0.0003 | CatBoost Weight 0.9997
+Decision Threshold: 0.5270
+XGBoost Parameters:
+{
+    "max_depth": 6,
+    "n_estimators": 1000,
+    "learning_rate": 0.06872378195885802,
+    "subsample": 0.8553587502221196,
+    "colsample_bytree": 0.9791705161975713,
+    "tree_method": "hist",
+    "device": "cuda",
+    "random_state": 42,
+    "verbosity": 0
+}
+
+--- Rank 10 ---
+CV Score: 0.81456
+Fusion Configuration: XGBoost Weight 0.1981 | CatBoost Weight 0.8019
+Decision Threshold: 0.5197
+XGBoost Parameters:
+{
+    "max_depth": 6,
+    "n_estimators": 1500,
+    "learning_rate": 0.07996881264313466,
+    "subsample": 0.865051463108748,
+    "colsample_bytree": 0.964570494325671,
+    "tree_method": "hist",
+    "device": "cuda",
+    "random_state": 42,
+    "verbosity": 0
+}
+
+--- Rank 15 ---
+CV Score: 0.81433
+Fusion Configuration: XGBoost Weight 0.2480 | CatBoost Weight 0.7520
+Decision Threshold: 0.5182
+XGBoost Parameters:
+{
+    "max_depth": 6,
+    "n_estimators": 1500,
+    "learning_rate": 0.09701348209293312,
+    "subsample": 0.9025206702678816,
+    "colsample_bytree": 0.9471994922681529,
+    "tree_method": "hist",
+    "device": "cuda",
+    "random_state": 42,
+    "verbosity": 0
+}
+
+--- Rank 24 ---
+CV Score: 0.81410
+Fusion Configuration: XGBoost Weight 0.0640 | CatBoost Weight 0.9360
+Decision Threshold: 0.5225
+XGBoost Parameters:
+{
+    "max_depth": 6,
+    "n_estimators": 1500,
+    "learning_rate": 0.08241224889620226,
+    "subsample": 0.9352080042041623,
+    "colsample_bytree": 0.9812830520533389,
+    "tree_method": "hist",
+    "device": "cuda",
+    "random_state": 42,
+    "verbosity": 0
+}
+
